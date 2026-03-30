@@ -1,0 +1,43 @@
+{
+  "adminSecret": "change-this-secret",
+  "site": {
+    "name": "EchoLog",
+    "description": "A quiet place for notes, drafts, and longer reflections.",
+    "icpNumber": "\u664bICP\u59072021005515\u53f7",
+    "icpLinkUrl": "https://beian.miit.gov.cn/",
+    "nav": [
+      {
+        "label": "First Post",
+        "type": "post",
+        "value": "hello-echolog"
+      },
+      {
+        "label": "GitHub",
+        "type": "url",
+        "value": "https://github.com"
+      }
+    ]
+  },
+  "posts": [
+    {
+      "id": "hello-echolog",
+      "slug": "hello-echolog",
+      "title": "Hello EchoLog",
+      "published": true,
+      "excerpt": "The first local post used to wire the site settings and admin tools together.",
+      "content": "This post is stored in `backend/data/store.local.json` and can be edited from the `/thesky9531` management page.",
+      "publishedAt": "2026-03-20",
+      "updatedAt": "2026-03-20T00:00:00Z"
+    },
+    {
+      "id": "writing-workflow",
+      "slug": "writing-workflow",
+      "title": "Writing Workflow",
+      "published": true,
+      "excerpt": "Use the management page to update navigation, ICP info, or any post content.",
+      "content": "Navigation items can point to a local post slug or any external URL. The backend resolves post navigation into public links automatically.",
+      "publishedAt": "2026-03-19",
+      "updatedAt": "2026-03-19T00:00:00Z"
+    }
+  ]
+}
